@@ -26,23 +26,23 @@ humidity.innerHTML = `Humidity: ${result.current.humidity}`
 wind.innerHTML = `Wind Mph: ${result.current.wind_mph}`
 
 if(result.current.condition.text === 'Partly cloudy'){
-  weatherImage.src = 'images/clouds.png'
+  weatherImage.src = 'clouds.png'
 }
 else if(result.current.condition.text === 'clear'){
-  weatherImage.src = 'images/clear.png'
+  weatherImage.src = 'clear.png'
 }
 else if(result.current.condition.text === 'Rain'){
-  weatherImage.src = 'images/rain.png'
+  weatherImage.src = 'rain.png'
 }
 else if(result.current.condition.text === 'Light Rain shower '){
-  weatherImage.src = 'images/rain_light.png'
+  weatherImage.src = 'rain_light.png'
 }
 
 else if(result.current.condition.text === 'Snow'){
-  weatherImage.src = 'images/snow.png'
+  weatherImage.src = 'snow.png'
 }
 else if(result.current.condition.text === 'Mist'){
-  weatherImage.src = 'images/mist.png'
+  weatherImage.src = 'mist.png'
 }
 
 })
