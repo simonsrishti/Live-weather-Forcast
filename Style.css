@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', Courier, monospace;
+  color: rgb(0, 0, 0);
+}
+body{
+  background-image: url(images/hero-3.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.card{
+  background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  width: 88%;
+  max-width: 470px;
+  margin: 100px auto;
+  padding: 30px 30px;
+  text-align: center;
+  border-radius: 0.6em;
+  opacity: 0.85;
+  max-height: 700px;
+}
+.title{
+  padding: 15px;
+
+}
+.search{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search input{
+  border: none;
+  outline: none;
+  padding: 15px 25px;
+  border-radius: 30px;
+  flex: 1;
+  margin-right: 15px;
+  font-size: 18px;
+}
+.search button{
+  padding: 15px;
+  border-radius: 50%;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}
+i{
+  font-size: 20px;
+}
+.weather{padding: 20px;}
+
+.celcius{
+  font-size: 60px;
+  padding: 5px;
+}
+.city-name{
+  font-size: 30px;
+  padding: 10px;
+}
+
+.weather-details{
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-size: 20px;
+}
+p{
+  font-size: 30px;
+  font-weight: 300;
+}
+
